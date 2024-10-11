@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url="http://localhost:4500/products"
+const url="http://localhost:5000/products"
 
 export async function getData(){
    return await axios.get(url)

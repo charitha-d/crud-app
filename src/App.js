@@ -11,7 +11,7 @@ function App(){
     const [edit,setEdit]=useState(false)
     const [initalformData,setForm]=useState({
       name:"",
-      price:" "
+      price:""
 })
   useEffect(()=>{
       getProducts()
